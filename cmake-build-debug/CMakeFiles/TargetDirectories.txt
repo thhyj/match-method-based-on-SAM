@@ -1,0 +1,3 @@
+D:/match method based on SAM/cmake-build-debug/CMakeFiles/match_method_based_on_SAM.dir
+D:/match method based on SAM/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/match method based on SAM/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -99,16 +99,13 @@ struct SAMbuild {
             v = q[x][i];
             if (v != fa) {
                 dfs(v, x);
-                if (endPos[x].size() < endPos[v].size()) {
-                    endPos[x].swap(endPos[v]);
-                }
                 endPos[x].insert(endPos[v].begin(), endPos[v].end());
             }
         }
     }
 
     void buildSam() {
-        //     freopen("sam.in", "r", stdin);
+             freopen("sam.in", "r", stdin);
         // freopen("beifen2", "w", stdout);
         R(n);
         last = cur = tot = rt = 1;
